@@ -1,1 +1,1 @@
-# Smart FIre Detection
+#Smart Fire Detection
