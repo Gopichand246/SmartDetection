@@ -1,0 +1,7 @@
+title Fire Detection
+
+Arduino IDE->Server: POST Request
+Server->Database: Insert Data
+GSMmodule->Database: GET Request
+Database->GSMmodule:Data  
+
