@@ -1,0 +1,22 @@
+//// -- LEVEL 1
+//// -- Tables and References
+
+// Creating tables
+Table stationID as ids  {
+  id int [pk, increment] // auto-increment
+  Station varchar
+}
+
+Table Stations as Station {
+  Station varchar [pk]
+  Smoke_val int
+  Hum_val int
+  Temp_val int 
+  Time timestamp
+}
+
+
+
+
+
+Ref: "stationID"."Station" < "Stations"."Station"
